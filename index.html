@@ -1,0 +1,41 @@
+<!Doctype html> 
+<html lang="en">
+   <head>
+   <title>Charisma &#x2764;&#xFE0F;</title>
+<link rel="stylesheet" href="./style.css">
+    
+   </head>
+   <body>
+
+    <div class="container">
+        <div>
+            <h2 class="header_text">&#x1F929;
+                Do you wanna go out with me?</h2> 
+        </div>
+
+    
+    <div class="gif_container">
+        
+        <img src="https://media0.giphy.com/media/Q7AEcaWpLcuWqbhDYy/giphy.gif?cid=ecf05e47mlfzgkpd3jd2g1zg187plbbof4puyw3n84p4fziv&ep=v1_gifs_related&rid=giphy.gif&ct=g">
+    </div>
+    <div class="buttons">
+        <button class="btn" id="yesButton" onclick="nextpage()">Yes</button>
+        <button class="btn" id="noButton" onmouseover="moveButton()">No</button>
+
+        <script>
+            function nextpage() {
+                window.location.href= "yes.html";
+            }
+            function moveButton() {
+                var x=Math.random() = (Window.innerwidth-document.getElementById('noButton').offsetWidth)
+                var y=Math.random() = (Window.innerweight-document.getElementById('noButton').offsetweight)
+                document.getElementById('noButton').style.left='$(x)px';
+                document.getElementById('noButton').style.top='$(y)px';
+
+            }
+        </script>
+    </div>
+
+   </body>
+
+</html>
